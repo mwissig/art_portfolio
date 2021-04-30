@@ -4,21 +4,34 @@ background-color: rgb(226, 226, 226);
 padding: 0;
 margin: 0;
 margin-top: 6em;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+15,e8e8e8+20,e8e8e8+80,ffffff+85,ffffff+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 15%, #e8e8e8 20%, #e8e8e8 80%, #ffffff 85%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 15%,#e8e8e8 20%,#e8e8e8 80%,#ffffff 85%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ffffff 0%,#ffffff 15%,#e8e8e8 20%,#e8e8e8 80%,#ffffff 85%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+
 }
 .thumbnail {
-  max-width: 200px;
+  width: 200px;
+  height: 200px;
   opacity: 0;
   max-height: 100%;
   margin: 2em, 1em;
 }
 #lightbox_container {
-  width: 100%;
+  width: 70%;
+margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 .lightbox_entry {
+  width: 200px;
+  height: 200px;
+  margin-bottom: .6em;
   background-size: cover;
   background-position: center;
   box-shadow: (3px 3px 3px rgba(0, 0, 0, 0.84));
@@ -37,11 +50,12 @@ position: absolute;
 top: 0;
 padding: 5px;
 margin: 0;
+left: 15%;
 }
 h2 {
   position: absolute;
   top: 0px;
-  right: 2em;
+  right: 15%;
   margin: 0px;
 }
 h2, h3, h4, h5 {
@@ -52,6 +66,19 @@ h3 {
   background-color: white;
 }
 
+@media only screen and (max-width: 1200px) {
+
+  #lightbox_container {
+    width: 100%;
+  }
+  h1 {
+    left: 0;
+  }
+h2 {
+  right: 2em;
+}
+}
+
 @media only screen and (max-width: 600px) {
 
   .thumbnail {
@@ -60,4 +87,16 @@ h3 {
     max-height: 45vh;
   }
 
+}
+
+@media only screen and (max-width: 450px) {
+
+  .thumbnail {
+    width: 45vw;
+    height: 45vw;
+}
+.lightbox_entry {
+  width: 45vw;
+  height: 45vw;
+}
 }
