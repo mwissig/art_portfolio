@@ -2,7 +2,40 @@
   console.log("hi");
 }
 
-var art = [{
+var art = [
+  {
+    title: "title",
+    year: 2016,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "pie.jpg",
+    category: "Paintings 2014-present"
+  },
+  {
+    title: "title",
+    year: 2015,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "staples.jpg",
+    category: "Paintings 2014-present"
+  },
+  {
+    title: "title",
+    year: 2014,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "hottub.jpg",
+    category: "Paintings 2014-present"
+  },
+  {
+    title: "title",
+    year: 2015,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "hoist.jpg",
+    category: "Paintings 2014-present"
+  },
+  {
     title: "title",
     year: 2010,
     medium: "Oil on Panel",
@@ -12,28 +45,51 @@ var art = [{
   },
   {
     title: "title",
+    year: 2013,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "018.jpg",
+    category: "Paintings 2010-2014"
+  },
+  {
+    title: "title",
+    year: 2013,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "019.jpg",
+    category: "Paintings 2010-2014"
+  },
+  {
+    title: "title",
+    year: 2013,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "020.jpg",
+    category: "Paintings 2010-2014"
+  },
+  {
+    title: "title",
+    year: 2013,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "021.jpg",
+    category: "Paintings 2010-2014"
+  },
+  {
+    title: "title",
+    year: 2013,
+    medium: "Oil on Panel",
+    description: "description",
+    filename: "022.jpg",
+    category: "Paintings 2010-2014"
+  },
+  {
+    title: "title",
     year: 2014,
     medium: "Oil on Panel",
     description: "description",
     filename: "haircut.jpg",
     category: "Paintings 2010-2014"
-  },
-  {
-    title: "title",
-    year: 2014,
-    medium: "Oil on Panel",
-    description: "description",
-    filename: "hottub.jpg",
-    category: "Paintings 2010-2014"
-  },
-
-  {
-    title: "title",
-    year: 2015,
-    medium: "Oil on Panel",
-    description: "description",
-    filename: "staples.jpg",
-    category: "Paintings 2014-present"
   },
   {
     title: "Metro Drawings",
