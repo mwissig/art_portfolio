@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
 font-family: 'Montserrat', sans-serif;
 background-color: rgb(226, 226, 226);
@@ -12,6 +15,9 @@ background: linear-gradient(to right,  #ffffff 0%,#ffffff 15%,#e8e8e8 20%,#e8e8e
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 
 
+}
+a:hover {
+  font-weight: bold;
 }
 .thumbnail {
   width: 200px;
@@ -31,6 +37,7 @@ margin: 0 auto;
 .lightbox_entry {
   width: 200px;
   height: 200px;
+  opacity: 80%;
   margin-bottom: .6em;
   background-size: cover;
   background-position: center;
@@ -38,7 +45,9 @@ margin: 0 auto;
   border-radius: 4px;
   border: 3px solid white;
 }
-
+.lightbox_entry:hover {
+  opacity: 100%;
+}
 h1, h2, h3, h4, h5 {
 font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -65,7 +74,25 @@ h3 {
   width: 100%;
   background-color: white;
 }
-
+#titles_menu_container {
+  max-width: 200px;
+  background-color: white;
+position: fixed;
+left: 0;
+height: 100vh;
+}
+#titles_menu {
+  list-style: none;
+  li
+}
+#titles_menu li {
+  margin: 1em 0;
+  text-decoration: none;
+}
+#titles_menu a {
+  text-decoration: none;
+  color: black;
+}
 @media only screen and (max-width: 1200px) {
 
   #lightbox_container {
@@ -86,7 +113,12 @@ h2 {
     opacity: 0;
     max-height: 45vh;
   }
-
+  #titles_menu_container {
+    max-width: auto;
+  position: relative;
+  left: auto;
+  height: auto;
+  }
 }
 
 @media only screen and (max-width: 450px) {

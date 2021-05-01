@@ -172,22 +172,26 @@ var art = [
     category: "Metropolitan Bar Drawings"
   }
 ];
-
+var titles = [];
 var lightbox_container = document.getElementById("lightbox_container");
 
 function printLightbox() {
   var i;
   for (i = 0; i < art.length; i++) {
-
+  var strippedTitle =  art[i].category.replace(/\s/g,'')
     if (i <= 0) {
       var addTitle = document.createElement("h3");
+      addTitle.setAttribute("id", strippedTitle);
       addTitle.innerHTML = art[i].category;
       lightbox_container.appendChild(addTitle);
+      titles.push(art[i].category);
     }
     else if (art[i].category != art[i - 1].category) {
       var addTitle = document.createElement("h3");
+      addTitle.setAttribute("id", strippedTitle);
       addTitle.innerHTML = art[i].category;
       lightbox_container.appendChild(addTitle);
+      titles.push(art[i].category);
     };
 
   var addArt = document.createElement("div");
@@ -196,7 +200,18 @@ function printLightbox() {
   addArt.style.backgroundImage = `url("images/${art[i].filename}.jpg")`;
   addArt.innerHTML = `<a href="images/${art[i].filename}.jpg" data-lightbox="${art[i].category}" data-title="${art[i].title}" data-description="${art[i].description}" data-year="${art[i].year}" data-medium="${art[i].medium}"><img src="thumbnails/${art[i].filename}.jpg" class="thumbnail"></a>`;
   lightbox_container.appendChild(addArt);
+
+}
+var j;
+for (j = 0; j < titles.length; j++) {
+var titlesMenu = document.getElementById("titles_menu");
+var addMenuItem = document.createElement("li");
+addMenuItem.innerHTML = `<a href="#${titles[j].replace(/\s/g,'')}">${titles[j]}</a>`
+titlesMenu.appendChild(addMenuItem);
 }
 };
+
+
+
 
 printLightbox();
