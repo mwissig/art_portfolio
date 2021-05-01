@@ -8,7 +8,7 @@ var art = [
     year: 2016,
     medium: "Oil on Panel",
     description: "description",
-    filename: "pie.jpg",
+    filename: "pie",
     category: "Paintings 2014-present"
   },
   {
@@ -16,7 +16,7 @@ var art = [
     year: 2015,
     medium: "Oil on Panel",
     description: "description",
-    filename: "staples.jpg",
+    filename: "staples",
     category: "Paintings 2014-present"
   },
   {
@@ -24,7 +24,7 @@ var art = [
     year: 2014,
     medium: "Oil on Panel",
     description: "description",
-    filename: "hottub.jpg",
+    filename: "hottub",
     category: "Paintings 2014-present"
   },
   {
@@ -32,7 +32,7 @@ var art = [
     year: 2015,
     medium: "Oil on Panel",
     description: "description",
-    filename: "hoist.jpg",
+    filename: "hoist",
     category: "Paintings 2014-present"
   },
   {
@@ -40,7 +40,7 @@ var art = [
     year: 2010,
     medium: "Oil on Panel",
     description: "description",
-    filename: "florida.jpg",
+    filename: "florida",
     category: "Paintings 2010-2014"
   },
   {
@@ -48,7 +48,7 @@ var art = [
     year: 2013,
     medium: "Oil on Panel",
     description: "description",
-    filename: "018.jpg",
+    filename: "018",
     category: "Paintings 2010-2014"
   },
   {
@@ -56,7 +56,7 @@ var art = [
     year: 2013,
     medium: "Oil on Panel",
     description: "description",
-    filename: "019.jpg",
+    filename: "019",
     category: "Paintings 2010-2014"
   },
   {
@@ -64,7 +64,7 @@ var art = [
     year: 2013,
     medium: "Oil on Panel",
     description: "description",
-    filename: "020.jpg",
+    filename: "020",
     category: "Paintings 2010-2014"
   },
   {
@@ -72,7 +72,7 @@ var art = [
     year: 2013,
     medium: "Oil on Panel",
     description: "description",
-    filename: "021.jpg",
+    filename: "021",
     category: "Paintings 2010-2014"
   },
   {
@@ -80,7 +80,7 @@ var art = [
     year: 2013,
     medium: "Oil on Panel",
     description: "description",
-    filename: "022.jpg",
+    filename: "022",
     category: "Paintings 2010-2014"
   },
   {
@@ -88,7 +88,7 @@ var art = [
     year: 2014,
     medium: "Oil on Panel",
     description: "description",
-    filename: "haircut.jpg",
+    filename: "haircut",
     category: "Paintings 2010-2014"
   },
   {
@@ -96,7 +96,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro01.jpg",
+    filename: "metro01",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -104,7 +104,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro02.jpg",
+    filename: "metro02",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -112,7 +112,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro03.jpg",
+    filename: "metro03",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -120,7 +120,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro04.jpg",
+    filename: "metro04",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -128,7 +128,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro05.jpg",
+    filename: "metro05",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -136,7 +136,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro06.jpg",
+    filename: "metro06",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -144,7 +144,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro07.jpg",
+    filename: "metro07",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -152,7 +152,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro08.jpg",
+    filename: "metro08",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -160,7 +160,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro09.jpg",
+    filename: "metro09",
     category: "Metropolitan Bar Drawings"
   },
   {
@@ -168,7 +168,7 @@ var art = [
     year: "2019-2020",
     medium: "Conte and Pencil on Dyed Paper",
     description: "description",
-    filename: "metro10.jpg",
+    filename: "metro10",
     category: "Metropolitan Bar Drawings"
   }
 ];
@@ -193,8 +193,8 @@ function printLightbox() {
   var addArt = document.createElement("div");
   addArt.setAttribute("id", "filename" + i);
   addArt.setAttribute("class", "lightbox_entry");
-  addArt.style.backgroundImage = `url("images/${art[i].filename}")`;
-  addArt.innerHTML = `<a href="images/${art[i].filename}" data-lightbox="${art[i].category}" data-title="${art[i].title}" data-description="${art[i].description}" data-year="${art[i].year}" data-medium="${art[i].medium}"><img src="images/${art[i].filename}" class="thumbnail"></a>`;
+  addArt.style.backgroundImage = `url("images/${art[i].filename}.jpg")`;
+  addArt.innerHTML = `<a href="images/${art[i].filename}.jpg" data-lightbox="${art[i].category}" data-title="${art[i].title}" data-description="${art[i].description}" data-year="${art[i].year}" data-medium="${art[i].medium}"><img src="thumbnails/${art[i].filename}.jpg" class="thumbnail"></a>`;
   lightbox_container.appendChild(addArt);
 }
 };
