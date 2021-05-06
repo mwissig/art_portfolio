@@ -10823,7 +10823,8 @@ return jQuery;
         title: $link.attr('data-title') || $link.attr('title'),
         description: $link.attr('data-description') || $link.attr('description'),
 				year: $link.attr('data-year') || $link.attr('year'),
-				medium: $link.attr('data-medium') || $link.attr('medium')
+				medium: $link.attr('data-medium') || $link.attr('medium'),
+				size: $link.attr('data-size') || $link.attr('size')
 			});
     }
 
@@ -11072,9 +11073,9 @@ return jQuery;
       this.album[this.currentImageIndex].title !== '') {
       var $caption = this.$lightbox.find('.lb-caption');
       if (this.options.sanitizeTitle) {
-        $caption.text(this.album[this.currentImageIndex].title + " / " + this.album[this.currentImageIndex].year + " / " + this.album[this.currentImageIndex].medium + " / " + this.album[this.currentImageIndex].description);
+        $caption.text(this.album[this.currentImageIndex].title + " / " + this.album[this.currentImageIndex].year + " / " + this.album[this.currentImageIndex].medium + " / " + this.album[this.currentImageIndex].size + " / " + this.album[this.currentImageIndex].description);
       } else {
-        $caption.html(this.album[this.currentImageIndex].title + " / " + this.album[this.currentImageIndex].year + " / " + this.album[this.currentImageIndex].medium + " / " + this.album[this.currentImageIndex].description);
+        $caption.html(this.album[this.currentImageIndex].title + " / " + this.album[this.currentImageIndex].year + " / " + this.album[this.currentImageIndex].medium + " / " + this.album[this.currentImageIndex].size + " / " + this.album[this.currentImageIndex].description);
       }
       $caption.fadeIn('fast');
     }
