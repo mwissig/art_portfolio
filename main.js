@@ -7,16 +7,16 @@ var art = [{
     year: 2016,
     medium: "Oil on Panel",
     size: "16in x 12in",
-    description: "description",
+    description: "Communal housing, baking, BDSM",
     filename: "pie",
     category: "Paintings 2014-present"
   },
   {
-    title: "title",
+    title: "Do This For Three Years To Earn What The CEO Makes in a Day",
     year: 2015,
     medium: "Oil on Panel",
-    size: "",
-    description: "description",
+    size: "18in x 14in",
+    description: "A painting of workers in a Staples copy center. (lost)",
     filename: "staples",
     category: "Paintings 2014-present"
   },
@@ -24,8 +24,8 @@ var art = [{
     title: "Hot Tub",
     year: 2014,
     medium: "Oil on Panel",
-    size: "9in x 12in",
-    description: "description",
+    size: "12in x 9in",
+    description: "Florida; making a hot tub the hard way",
     filename: "hottub",
     category: "Paintings 2014-present"
   },
@@ -34,7 +34,7 @@ var art = [{
     year: 2014,
     medium: "Oil on Panel",
     size: "6in x 8in",
-    description: "description",
+    description: "The definition of a 'bedroom' is debatable",
     filename: "loft",
     category: "Paintings 2014-present"
   },
@@ -42,34 +42,34 @@ var art = [{
     title: "New York Hoist",
     year: 2015,
     medium: "Oil on Panel",
-    size: "",
-    description: "description",
+    size: "9in x 12in",
+    description: "The view from my studio above Bridge and Tunnel Brewery",
     filename: "hoist",
     category: "Paintings 2014-present"
   },
   {
-    title: "title",
+    title: "Untitled",
     year: 2010,
-    medium: "Oil on Panel",
+    medium: "Acrylic on Canvas",
     size: "9ft x 6ft",
-    description: "description",
+    description: "A Florida house",
     filename: "florida",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "Bicycle",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
+    size: "5in x 7in",
     description: "description",
     filename: "018",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "On a Bus",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
+    size: "7in x 5in",
     description: "description",
     filename: "019",
     category: "Paintings 2010-2014"
@@ -79,60 +79,60 @@ var art = [{
     year: 2013,
     medium: "Oil on Panel",
     size: "",
-    description: "description",
+    description: "A deer at the Orlando city limit",
     filename: "020",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "Party for Henry",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
-    description: "description",
+    size: "10in x 8in",
+    description: "Henry is the dog",
     filename: "021",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "Tuning a Banjo",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
+    size: "10in x 8in",
     description: "description",
     filename: "022",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "Pick Your Own",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
-    description: "description",
+    size: "5in x 7in",
+    description: "A pick-your-own strawberry field",
     filename: "024",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "All Nighter",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
-    description: "description",
+    size: "8in x 10in",
+    description: "An art school dorm room",
     filename: "025",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "Unpacking",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
+    size: "17in x 11in",
     description: "description",
     filename: "026",
     category: "Paintings 2010-2014"
   },
   {
-    title: "title",
+    title: "Untitled",
     year: 2013,
     medium: "Oil on Panel",
-    size: "",
+    size: "8in x 10in",
     description: "description",
     filename: "027",
     category: "Paintings 2010-2014"
@@ -149,7 +149,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Alex",
     year: "2019-2020",
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY.",
     filename: "metro01",
@@ -158,7 +158,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Alex",
     year: "2019-2020",
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY.",
     filename: "metro02",
@@ -167,7 +167,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Noah",
     year: "2019-2020",
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY.",
     filename: "metro03",
@@ -176,7 +176,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Kirsten Leigh",
     year: "2019-2020",
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY. <a href='https://www.instagram.com/kleoleee/'>@kleoleee</a>",
     filename: "metro04",
@@ -185,7 +185,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Kirsten Leigh",
     year: "2019-2020",
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY. <a href='https://www.instagram.com/kleoleee/'>@kleoleee</a>",
     filename: "metro05",
@@ -194,7 +194,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Kirsten Leigh",
     year: "2019-2020",
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY. <a href='https://www.instagram.com/kleoleee/'>@kleoleee</a>",
     filename: "metro06",
@@ -203,16 +203,34 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Nogga",
     year: "2019-2020",
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY.",
     filename: "metro07",
     category: "Shots & Shade Drawings"
   },
   {
+  title: "Shots & Shade Drawings: Nogga",
+  year: "2019-2020",
+  medium: "Conte and Pencil on Hand-Dyed Paper",
+  size: "13in x 16.5in",
+  description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY.",
+  filename: "metro11",
+  category: "Shots & Shade Drawings"
+},
+{
+title: "Shots & Shade Drawings: Nogga",
+year: "2019-2020",
+medium: "Conte and Pencil on Hand-Dyed Paper",
+size: "13in x 16.5in",
+description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY.",
+filename: "metro12",
+category: "Shots & Shade Drawings"
+},
+  {
     title: "Shots & Shade Drawings: Wanda Whatever",
     year: 2020,
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'><a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a></a> in Brooklyn, NY. <a href='https://www.instagram.com/wanda.whatever/'>@wanda.whatever</a>",
     filename: "metro08",
@@ -221,7 +239,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Wanda Whatever",
     year: 2020,
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY. <a href='https://www.instagram.com/wanda.whatever/'>@wanda.whatever</a>",
     filename: "metro09",
@@ -230,7 +248,7 @@ var art = [{
   {
     title: "Shots & Shade Drawings: Wanda Whatever",
     year: 2020,
-    medium: "Conte and Pencil on Dyed Paper",
+    medium: "Conte and Pencil on Hand-Dyed Paper",
     size: "13in x 16.5in",
     description: "A series of drawings done during 'Shots & Shade: A Queer Drink & Draw' hosted by <a href='https://www.instagram.com/brieyob'>@brieyob</a> at <a href='https://www.metropolitanbarny.com/'>Metropolitan Bar</a> in Brooklyn, NY. <a href='https://www.instagram.com/wanda.whatever/'>@wanda.whatever</a>",
     filename: "metro10",
