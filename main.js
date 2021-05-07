@@ -280,6 +280,69 @@ category: "Shots & Shade Drawings"
     description: "A commissioned dog portrait",
     filename: "dog01",
     category: "Commissions and Portraits"
+  },
+  {
+    title: "Sketch",
+    year: 2019,
+    medium: "Conte and pencil",
+    size: "size",
+    description: "A sketch",
+    filename: "kinkndraw01",
+    category: "Sketches and Studies"
+  },
+  {
+    title: "Sketch",
+    year: 2019,
+    medium: "Conte and pencil",
+    size: "size",
+    description: "A sketch",
+    filename: "kinkndraw02",
+    category: "Sketches and Studies"
+  },
+  {
+    title: "Sketch",
+    year: 2019,
+    medium: "Conte and pencil",
+    size: "size",
+    description: "A sketch",
+    filename: "nude01",
+    category: "Sketches and Studies"
+  },
+  {
+    title: "Sketch",
+    year: 2019,
+    medium: "Conte and pencil",
+    size: "size",
+    description: "A sketch",
+    filename: "nude02",
+    category: "Sketches and Studies"
+  },
+  {
+    title: "Sketch",
+    year: 2019,
+    medium: "Conte and pencil",
+    size: "size",
+    description: "A sketch",
+    filename: "sketch01",
+    category: "Sketches and Studies"
+  },
+  {
+    title: "Sketch",
+    year: 2019,
+    medium: "Conte and pencil",
+    size: "size",
+    description: "A sketch",
+    filename: "sketch02",
+    category: "Sketches and Studies"
+  },
+  {
+    title: "Sketch",
+    year: 2019,
+    medium: "Conte and pencil",
+    size: "size",
+    description: "A sketch",
+    filename: "sketch03",
+    category: "Sketches and Studies"
   }
 ];
 var titles = [];
