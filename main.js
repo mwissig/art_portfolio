@@ -282,6 +282,15 @@ category: "Shots & Shade Drawings"
     category: "Commissions and Portraits"
   },
   {
+    title: "Too Fat To Fly",
+    year: 2022,
+    medium: "Oil on Panel",
+    size: "6in x 6in",
+    description: "Sausage-addicted kookaburra too fat to fly. BIRD became so obese from barbecue handouts she was unable to escape mauling. (commission)",
+    filename: "commission01",
+    category: "Commissions and Portraits"
+  },
+  {
     title: "Sketch",
     year: 2019,
     medium: "Conte and pencil",
